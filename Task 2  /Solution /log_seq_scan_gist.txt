@@ -1,0 +1,3 @@
+Start seqential scan for gist
+Finished scan for 103 sec
+Seq_scan_recall 1 Seq_scan_qps 0.05

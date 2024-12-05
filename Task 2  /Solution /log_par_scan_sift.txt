@@ -1,0 +1,5 @@
+Start parallel scan for sift
+Finished scan for 101 sec
+Finished scan for 107 sec
+Par_scan 2 threads recall 1 qps 0.38
+Par_scan 4 threads recall 1 qps 0.44

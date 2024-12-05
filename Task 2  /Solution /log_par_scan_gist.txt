@@ -1,0 +1,11 @@
+Start parallel scan for gist
+make: *** [Makefile:9: do_scan] Terminated
+make: *** [Makefile:9: do_scan] Terminated
+Finished scan for 100 sec
+make: *** [Makefile:9: do_scan] Terminated
+make: *** [Makefile:9: do_scan] Terminated
+make: *** [Makefile:9: do_scan] Terminated
+make: *** [Makefile:9: do_scan] Terminated
+Finished scan for 101 sec
+Par_scan 2 threads recall 0 qps 0
+Par_scan 4 threads recall 0 qps 0

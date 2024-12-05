@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Extract the query parameter
+for arg in "$@"
+do
+    case $arg in
+        --query=*)
+        QUERY="${arg#*=}"
+        shift # Remove --query=... from processing
+        ;;
+    esac
+done
+
+
+python3 search_top10_nearest.py --query=${QUERY}

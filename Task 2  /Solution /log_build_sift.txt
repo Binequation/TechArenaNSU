@@ -1,0 +1,4 @@
+Start build index for sift
+bash ./index_build --data=../datasets/sift/sift_base.fvecs 
+Набор данных сохранен в ../datasets/sift/sift_base.pkl
+Build time(sec): 18

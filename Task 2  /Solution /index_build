@@ -1,0 +1,16 @@
+for i in "$@"
+do
+    case $i in
+        --data=*)
+        DATA="${i#*=}"
+        shift # Убираем аргумент=value
+        ;;
+        *)
+        echo "Неизвестная опция: $i"
+        exit 1
+        ;;
+    esac
+done
+
+
+python3 process_dataset.py --data "$DATA"

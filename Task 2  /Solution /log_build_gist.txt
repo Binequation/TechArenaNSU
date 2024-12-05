@@ -1,0 +1,4 @@
+Start build index for gist
+bash ./index_build --data=../datasets/gist/gist_base.fvecs 
+Набор данных сохранен в ../datasets/gist/gist_base.pkl
+Build time(sec): 172
